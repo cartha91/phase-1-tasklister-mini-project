@@ -1,0 +1,57 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 42px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5.25em;
+}
+
+#main-content {
+  width: 80%;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+input[type="text"] {
+  width: 60%;
+  margin-right: 1em;
+  font-size: 42px;
+}
+
+input[type="submit"] {
+  background-color: #0f0;
+  border: none;
+  padding: .7em;
+  font-size: 42px;
+}
+
+#tasks {
+  list-style-type: none;
+}
+
+#tasks li {
+  border: solid #0f0;
+  margin-bottom: .7em; 
+  padding: .7em;
+}
+
+button {
+    font-size: 42px;
+    margin-left: .7em;
+}
+
+
+input[type="checkbox"] {
+    width: 28px; 
+    height: 28px; 
+    margin-left: .7em;
+}
